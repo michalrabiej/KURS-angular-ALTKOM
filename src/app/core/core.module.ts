@@ -5,6 +5,7 @@ import { CoreRoutingModule } from './core-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { SharedPostsModule } from '../shared-posts/shared-posts.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MenuComponent } from './components/menu/menu.component';
   ],
   imports: [
     BrowserModule,
-    CoreRoutingModule
+    CoreRoutingModule,
+    SharedPostsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
