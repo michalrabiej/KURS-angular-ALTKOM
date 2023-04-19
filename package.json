@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "ng build --base-href=/KURS-angular-ALTKOM/",
+    "predeploy": "ng build --configuration=production --base-href=/KURS-angular-ALTKOM/",
     "test:dev": "ng test --no-progress --browsers ChromeHeadless",
     "test:ci": "ng test --no-watch --no-progress --browsers ChromeHeadless",
     "deploy": "cross-env NODE_DEBUg=gh-pages gh-pages -d dist/workshop-angular-facebook"

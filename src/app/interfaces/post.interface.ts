@@ -5,5 +5,5 @@ export interface Post {
   createdTime: string;
   author: Author;
   body: string;
-  images: string[];
+  images: string[] | undefined;
 }
